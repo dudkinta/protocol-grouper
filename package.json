@@ -1,0 +1,25 @@
+{
+  "name": "@tgbc/protocol-grouper",
+  "version": "1.0.2",
+  "description": "A libp2p service for grouping peers by protocol.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "libp2p",
+    "protocol",
+    "grouper",
+    "peer"
+  ],
+  "author": "Timofey Dudkin",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "@libp2p/interface": "^2.2.0"
+  }
+}
