@@ -1,6 +1,6 @@
 {
   "name": "@tgbc/protocol-grouper",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A libp2p service for grouping peers by protocol.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -16,6 +16,10 @@
   ],
   "author": "Timofey Dudkin",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dudkinta/protocol-grouper.git"
+  },
   "devDependencies": {
     "typescript": "^5.6.3"
   },
