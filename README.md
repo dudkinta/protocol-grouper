@@ -51,13 +51,13 @@ node.addEventListener('protocolGrouper:add', (event) => {
 
 ### Methods
 
-#### `getPeers(protocol: string): string[]`
+#### `getPeers(protocol: string): PeerId[]`
 
 Returns a list of peer IDs that support the given protocol.
 
 ```javascript
-const peers = node.services.protocolGrouper.getPeers('/chat/1.0.0');
-console.log('Peers supporting /chat/1.0.0:', peers);
+const peers = node.services.protocolGrouper.getPeers('/ipfs/id/1.0.0');
+console.log('Peers supporting /ipfs/id/1.0.0:', peers.map((peer) => peer.toString()));
 ```
 
 #### `getProtocols(peerId: string): string[]`

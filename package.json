@@ -1,6 +1,6 @@
 {
   "name": "@tgbc/protocol-grouper",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A libp2p service for grouping peers by protocol.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
